@@ -23,3 +23,5 @@ def login(request):
 
 def register(request):
     return render(request, template_name='authentication/register.html')
+
+
